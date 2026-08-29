@@ -1,0 +1,127 @@
+
+<html>
+    <head> 
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorign>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet" >
+
+
+
+
+
+
+        <style>
+           
+            body{
+                margin:  0    ;
+                min-height:  100vh  ;
+                display:   flex   ;
+                justify-content: center ;
+                align-items:center;
+                 background-image: url("it\ girl.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+            }
+
+            h1,h2{
+font-family:'Great Vibes' ,cursive;
+
+
+
+            }
+            .container{
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+                text-align:center;
+            }
+
+            button{
+    background: #b06b86;
+    color: white;
+
+    border: none;
+    border-radius: 50px;
+
+    padding: 18px 40px;
+
+    font-size: 24px;
+    font-family: Georgia, serif;
+
+    cursor: pointer;
+
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+#result{
+    background: rgba(255,255,255,0.9);
+
+    padding: 25px;
+
+    margin-top: 25px;
+
+    border-radius: 25px;
+
+    width: 600px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+
+    backdrop-filter: blur(5px);
+
+    text-align: center;
+    border: 3px solid #d8a7b8;
+
+}
+    
+        </style>
+
+
+    </head>
+
+<body>
+
+<div class="container">
+
+
+
+
+
+
+<h1> 
+Random perfect day generator
+
+</h1>
+
+<button onclick="planDay()"> ✨ Plan my day ✨</button>
+
+
+
+
+<div id="result">
+
+    <p> your perfect day will appear here </p>
+
+
+</div>
+</div>
+
+<script src="page2.js">
+
+
+
+</script>
+
+
+    
+
+</body>
